@@ -55,12 +55,36 @@
 // }
 // console.log(findSumOfEven(num));
 
-let x = parseInt(prompt("insert your number:"));
-let y = parseInt(prompt("insert your number:"));
-function findPower() {
-  //toog n toogoor urjine
-}
+// let x = parseInt(prompt("insert your number:"));
+// let y = parseInt(prompt("insert your number:"));
+// function findPower() {
+//   //toog n toogoor urjine
+//   multiply = x ** y;
+//   {
+//     document.getElementById("text").innerHTML = "your answer: " + multiply;
+//   }
+// }
+// findPower();
 
+// let x = parseInt(prompt("insert your number:"));
+// let y = parseInt(prompt("insert your number:"));
+// function divisibilty() {
+//   if (x % y === 0) {
+//     document.getElementById("text").innerHTML = "it is dividable";
+//   } else {
+//     document.getElementById("text").innerHTML = "it is not dividable";
+//   }
+// }
+// divisibilty();
+
+let x = parseInt(prompt("insert your number:"));
+function numberIntoString() {
+  parseInt(x) + "";
+  {
+    document.getElementById("text").innerHTML = x;
+  }
+}
+numberIntoString();
 // function mathOp() {
 //     function nemeh(x, y) {
 //       let niilber = x + y;
