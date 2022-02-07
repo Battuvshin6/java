@@ -77,14 +77,14 @@
 // }
 // divisibilty();
 
-let x = parseInt(prompt("insert your number:"));
-function numberIntoString() {
-  parseInt(x) + "";
-  {
-    document.getElementById("text").innerHTML = x;
-  }
-}
-numberIntoString();
+// let x = parseInt(prompt("insert your number:"));
+// function numberIntoString() {
+//   parseInt(x) + "";
+//   {
+//     document.getElementById("text").innerHTML = x;
+//   }
+// }
+// numberIntoString();
 // function mathOp() {
 //     function nemeh(x, y) {
 //       let niilber = x + y;
@@ -124,3 +124,27 @@ numberIntoString();
 //     //   }
 //   }
 //  mathOp();
+
+// let x = "";
+// for (let row = 0; row < 5; row++) {
+//   for (let col = 5; col > row; col--) {
+//     x += "*";
+//   }
+//   x += "\n";
+// }
+
+// console.log(x);
+
+const a = [
+  ["x", "y", "z"],
+  ["a", "b", "c"],
+  ["q", "w", "e"],
+];
+a.reverse();
+for (let row = 0; row < 3; row++) {
+  //row=0
+  for (let col = 0; col < 3; col++) {
+    //col=1
+    console.log(a[row][col]); //
+  }
+}
